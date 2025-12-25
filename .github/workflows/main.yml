@@ -6,12 +6,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build APK
-        uses: ArtemSerebrenninkov/buildozer-action@v1.6.1
+        uses: ArtemSerebrenninkov/buildozer-action@v1
         with:
           command: buildozer android debug
           buildozer_version: master
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: my-game-package
+          name: package
           path: bin/*.apk
