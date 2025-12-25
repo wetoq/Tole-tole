@@ -3,11 +3,11 @@ title = ToleTole
 package.name = toletole
 package.domain = org.test
 source.dir = .
-source.include_exts = py,png,jpg,mp3,ico
+source.include_exts = py,png,jpg,mp3,ico,wav
 version = 0.1
 requirements = python3,kivy
 
-# Настройка иконки
+# Указываем твою иконку .ico
 icon.filename = icon.ico
 
 orientation = portrait
